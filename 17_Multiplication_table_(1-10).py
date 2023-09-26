@@ -8,9 +8,11 @@
 
 # This program prints the multiplication table from 1x1=1 to 10x10=100.
 
+print("\nMultiplication Table")
+
 for i in range(1,11):
     print("~" * 20)
-    print(i,"'ler")
+    print("For",i)
     
     print("~" * 20)
     for k in range(1,11):
